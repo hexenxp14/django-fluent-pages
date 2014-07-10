@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fluent_pages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-09 21:59-0500\n"
+"PO-Revision-Date: 2014-07-09 22:57-0600\n"
+"Last-Translator: David Loaiza M. <david@zooluciones.com>\n"
+"Language-Team: es <webmaster@zooluciones.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: admin/pageadmin.py:92
+msgid "SEO settings"
+msgstr "Configuraciones para posicionamiento en buscadores"
+
+#: admin/urlnodeadmin.py:57
+msgid "This URL is already taken by an other page."
+msgstr "Esta URL ya está en uso por otra página."
+
+#: admin/urlnodeadmin.py:68
+msgid "This slug is already used by an other page at the same level."
+msgstr ""
+"Esta \"URL amigagle\" ya es utilizada por otra página en el mismo nivel."
+
+#: admin/urlnodeadmin.py:90
+msgid "Menu structure"
+msgstr "Estructura del menú"
+
+#: admin/urlnodeadmin.py:95
+msgid "Publication settings"
+msgstr "Configuraciones de publicación"
+
+#: admin/urlnodepolymorphicadmin.py:10
+msgid "Page type"
+msgstr "Tipo de página"
+
+#: admin/urlnodepolymorphicadmin.py:21
+msgid "page type"
+msgstr "tipo de página"
+
+#: admin/urlnodepolymorphicadmin.py:113
+msgid "Status"
+msgstr "Estado"
+
+#: admin/urlnodepolymorphicadmin.py:133
+msgid "Mark selected objects as published"
+msgstr "Marcar los objetos seleccionados como publicados"
+
+#: models/db.py:60
+msgid "Published"
+msgstr "Publicado"
+
+#: models/db.py:61
+msgid "Draft"
+msgstr "Borrador"
+
+#: models/db.py:64 models/db.py:413
+msgid "title"
+msgstr "título"
+
+#: models/db.py:65
+msgid "slug"
+msgstr "URL amigable"
+
+#: models/db.py:65
+msgid "The slug is used in the URL of the page"
+msgstr "Con la \"URL amigable\" se conforma la dirección URL de la página"
+
+#: models/db.py:66
+msgid "parent"
+msgstr "padre"
+
+#: models/db.py:66
+msgid "You can also change the parent by dragging the page in the list."
+msgstr "También puede cambiar el padre arrastrando la página del listado."
+
+#: models/db.py:71
+msgid "status"
+msgstr "estado"
+
+#: models/db.py:72
+msgid "publication date"
+msgstr "fecha de publicación"
+
+#: models/db.py:72
+msgid "When the page should go live, status must be \"Published\"."
+msgstr ""
+"Cuando la página debe salir en línea, el estado debe ser \"Publicado \"."
+
+#: models/db.py:73
+msgid "publication end date"
+msgstr "fecha de cierre de publicación"
+
+#: models/db.py:74
+msgid "show in navigation"
+msgstr "mostrar en la navegación"
+
+#: models/db.py:75
+msgid "Override URL"
+msgstr "Sobreescribir URL"
+
+#: models/db.py:75
+msgid ""
+"Override the target URL. Be sure to include slashes at the beginning and at "
+"the end if it is a local URL. This affects both the navigation and subpages' "
+"URLs."
+msgstr ""
+"Reemplaza la dirección URL final. Asegúrese de incluir barras al principio y "
+"al final si es una dirección URL local. Esto afecta tanto a la navegación y "
+"a las direciones URLs de las subpáginas."
+
+#: models/db.py:78
+msgid "author"
+msgstr "autor"
+
+#: models/db.py:79
+msgid "creation date"
+msgstr "fecha de creación"
+
+#: models/db.py:80
+msgid "last modification"
+msgstr "última modificación"
+
+#: models/db.py:83
+msgid "Cached URL"
+msgstr "URL en Caché"
+
+#: models/db.py:91
+msgid "URL Node"
+msgstr "URL de Nodo"
+
+#: models/db.py:92
+msgid "URL Nodes"
+msgstr "URL Nodos"
+
+#: models/db.py:378 pagetypes/fluentpage/models.py:28
+msgid "Page"
+msgstr "Página"
+
+#: models/db.py:379 models/db.py:402 pagetypes/fluentpage/models.py:29
+msgid "Pages"
+msgstr "Páginas"
+
+#: models/db.py:395
+msgid "keywords"
+msgstr "palabras clave"
+
+#: models/db.py:396
+msgid "description"
+msgstr "descripción"
+
+#: models/db.py:412
+msgid "key"
+msgstr "clave"
+
+#: models/db.py:412
+msgid "A short name to identify the layout programmatically"
+msgstr "Un nombre corto para identificar la plantilla programáticamente"
+
+#: models/db.py:435 pagetypes/flatpage/models.py:13
+#: pagetypes/fluentpage/models.py:18
+msgid "Layout"
+msgstr "Plantilla"
+
+#: models/db.py:436
+msgid "Layouts"
+msgstr "Plantillas"
+
+#: models/fields.py:28
+msgid "The selected page cannot have sub pages."
+msgstr "La página seleccionada no puede tener subpáginas."
+
+#: pagetypes/flatpage/models.py:14
+msgid "Content"
+msgstr "Contenido"
+
+#: pagetypes/flatpage/models.py:20
+msgid "Flat Page"
+msgstr "Página Plana"
+
+#: pagetypes/flatpage/models.py:21
+msgid "Flat Pages"
+msgstr "Páginas Planas"
+
+#: pagetypes/redirectnode/models.py:12
+msgid "Normal redirect"
+msgstr "Redirección normal"
+
+#: pagetypes/redirectnode/models.py:13
+msgid "Permanent redirect (for SEO ranking)"
+msgstr "Redirección permanente (para el ranking de buscadores)"
+
+#: pagetypes/redirectnode/models.py:20
+msgid "New URL"
+msgstr "Nueva URL"
+
+#: pagetypes/redirectnode/models.py:21
+msgid "Redirect type"
+msgstr "Tipo de redirección"
+
+#: pagetypes/redirectnode/models.py:21
+msgid ""
+"Use 'normal redirect' unless you want to transfer SEO ranking to the new "
+"page."
+msgstr ""
+"Use 'redirección normal' a menos que desee transferir el ranking de "
+"buscadores a la nueva página."
+
+#: pagetypes/redirectnode/models.py:24
+msgid "Redirect"
+msgstr "Redirección"
+
+#: pagetypes/redirectnode/models.py:25
+msgid "Redirects"
+msgstr "Redirecciones"
+
+#: pagetypes/textfile/models.py:11
+msgid "Plain text"
+msgstr "Texto simple"
+
+#: pagetypes/textfile/models.py:12
+msgid "XML"
+msgstr "XML"
+
+#: pagetypes/textfile/models.py:13
+msgid "HTML"
+msgstr "HTML"
+
+#: pagetypes/textfile/models.py:19
+msgid "File contents"
+msgstr "Contenido del archivo"
+
+#: pagetypes/textfile/models.py:20
+msgid "File type"
+msgstr "Tipo de archivo"
+
+#: pagetypes/textfile/models.py:23
+msgid "Plain text file"
+msgstr "Archivo de texto simple"
+
+#: pagetypes/textfile/models.py:24
+msgid "Plain text files"
+msgstr "Archivos de texto simple"
+
+#: templates/admin/fluent_pages/page/change_form.html:23
+msgid "History"
+msgstr "Historial"
+
+#: templates/admin/fluent_pages/page/change_form.html:24
+msgid "View on site"
+msgstr "Ver en el sitio"
+
+#: templates/admin/fluent_pages/page/change_form.html:35
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Por favor, corrija el siguiente error."
+msgstr[1] "Por favor, corrija los errores siguientes."
