@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fluent_pages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-09 21:59-0500\n"
-"PO-Revision-Date: 2014-07-09 22:57-0600\n"
+"PO-Revision-Date: 2014-07-09 23:11-0600\n"
 "Last-Translator: David Loaiza M. <david@zooluciones.com>\n"
 "Language-Team: es <webmaster@zooluciones.com>\n"
 "Language: es\n"
@@ -57,7 +57,7 @@ msgstr "Marcar los objetos seleccionados como publicados"
 
 #: models/db.py:60
 msgid "Published"
-msgstr "Publicado"
+msgstr "Publicada"
 
 #: models/db.py:61
 msgid "Draft"
